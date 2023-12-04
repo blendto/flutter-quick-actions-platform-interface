@@ -23,4 +23,7 @@ class ShortcutItem {
   /// Name of native resource (xcassets etc; NOT a Flutter asset) to be
   /// displayed as the icon for this item.
   final String? icon;
+
+  /// Localized subtitle of the item.
+  final String? subtitle;
 }
