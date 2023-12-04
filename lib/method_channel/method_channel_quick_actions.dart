@@ -46,7 +46,7 @@ class MethodChannelQuickActions extends QuickActionsPlatform {
       'type': item.type,
       'localizedTitle': item.localizedTitle,
       'icon': item.icon,
-      'subtitle': item.subtitle,
+      'subtitle': item.localizedSubtitle,
     };
   }
 }

@@ -12,6 +12,7 @@ class ShortcutItem {
     required this.type,
     required this.localizedTitle,
     this.icon,
+    this.localizedSubtitle,
   });
 
   /// The identifier of this item; should be unique within the app.
@@ -25,5 +26,5 @@ class ShortcutItem {
   final String? icon;
 
   /// Localized subtitle of the item.
-  final String? subtitle;
+  final String? localizedSubtitle;
 }
